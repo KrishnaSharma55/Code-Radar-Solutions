@@ -7,6 +7,6 @@ int main() {
     if(b>c){
         a=true;
     }
-    println(a);
+    printf(a);
     return 0;
 }
