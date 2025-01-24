@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    bool a=False;
+    bool a=false;
     int b,c;
     scanf("%d %d",&b,&c);
     if(b>c){
-        a=True;
+        a=true;
     }
     return 0;
 }
