@@ -5,12 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c;
-    c=b-a;
-    if(c<0){
+    int a,b
+    scanf("%d %d",&a,&b)
+    if(a>b){
         printf("Profit");
     }
-    else if (c>0){
+    else if (b<c){
         printf("Loss");
     }
     else{
