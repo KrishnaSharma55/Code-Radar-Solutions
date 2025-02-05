@@ -23,10 +23,10 @@ int main() {
         }
     }
     if(b==1){
-        printf("Prime")
+        printf("Prime");
     }
     else{
-        printf("Not prime")
+        printf("Not prime");
     }
     return 0;
 }
