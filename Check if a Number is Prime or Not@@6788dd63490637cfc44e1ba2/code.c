@@ -16,10 +16,10 @@ int main() {
     }
     for(int i=2; i<a/2; i++){
         if(a%i==0){
-            b=1;
+            b=0;
         }
         else{
-            b=0;
+            b=1;
         }
     }
     if(b==1){
