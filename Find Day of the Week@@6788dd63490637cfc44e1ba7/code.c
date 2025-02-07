@@ -20,8 +20,10 @@ int main() {
             printf("Friday");
             break;
         case 6:
-            printf("Sunday");
+            printf("Saturday");
             break;
+        case 7:
+            printf("Sunday");
         default:
             printf("Invalid");
 
