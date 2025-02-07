@@ -12,7 +12,7 @@ int main() {
     else if (c == '*')
         printf("%d", a * b);
     else if (c == '/')
-        printf("%f", (float)a / b);
+        printf("%.0f", (float)a / b);
     else
         printf("Error");
 }
