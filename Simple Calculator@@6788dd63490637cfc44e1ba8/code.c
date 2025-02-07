@@ -18,7 +18,7 @@ int main() {
             if(b!=0){
             printf("%d\n",a/b);
         }
-        else{
+            else{
             printf("error")
         }
             break;
