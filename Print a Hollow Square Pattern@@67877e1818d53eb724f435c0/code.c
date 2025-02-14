@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 int maint(){
     int n;
     scanf("%d",&n);
