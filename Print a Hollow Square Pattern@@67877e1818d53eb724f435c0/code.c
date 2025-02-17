@@ -10,7 +10,9 @@ int main(){
             else if(j==1||j==n){
                 printf("*");
             }
-            else("*");
+            else{
+                printf(' ');
+            }
         }
         printf("\n");
     }
