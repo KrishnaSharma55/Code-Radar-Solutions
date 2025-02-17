@@ -8,7 +8,7 @@ int main(){
                 printf("*");
             }
             else if(j==1||j==n){
-                printf("*")
+                printf("*");
             }
         }
         printf("\n");
