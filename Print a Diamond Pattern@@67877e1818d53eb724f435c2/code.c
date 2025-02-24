@@ -15,7 +15,7 @@ int main (){
         for(int m=n-i; m<=n; m++){
             printf(" ");
         }
-        for(int l=i; l<=(n-i)-j; l++){
+        for(int l=i; l<=n-i; l++){
             printf("*");
         }
         printf("\n");
