@@ -9,12 +9,14 @@ int main (){
         for(int k=n-i; k<=n+i; k++){
             printf("*");
         }
+       printf("\n");
+    }
+    for(int i=0; i<n; i++) {
         for(int k= n-i; k<= n+i; k++){
             printf(" ");
         }
         for(int l=i; l<=n+i; l++){
             printf("*");
         }
-       printf("\n");
     }
 }
