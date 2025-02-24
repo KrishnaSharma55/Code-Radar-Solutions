@@ -10,7 +10,7 @@ int main (){
             printf("*");
         }
         for(int k= n-i; k<= n+i; k++){
-            printf("*");
+            printf(" ");
         }
         for(int l=i; l<=n+i; l++){
             printf("*");
