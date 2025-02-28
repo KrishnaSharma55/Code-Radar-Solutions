@@ -16,7 +16,7 @@ int main (){
             printf(" ");
         }
         for(int k=i; k<n; k++){
-            printf("* ");
+            printf("*");
         }
        printf("\n");
     }
