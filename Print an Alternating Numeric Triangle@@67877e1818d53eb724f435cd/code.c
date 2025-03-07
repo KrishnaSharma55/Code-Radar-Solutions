@@ -7,7 +7,7 @@ int main(){
             if(n%2==0){
                 m=0;
             }
-            else{
+            else if(n%2!=0){
                 m=1;
             }
             printf("%d ",m);
