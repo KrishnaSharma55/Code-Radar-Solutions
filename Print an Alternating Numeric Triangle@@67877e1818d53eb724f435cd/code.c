@@ -9,7 +9,7 @@ int main(){
             }
             
             printf("%d ",m);
-            else if(m==0){
+            if(m==0){
                 m++;
             }
         }
