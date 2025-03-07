@@ -7,10 +7,11 @@ int main(){
             if(n%2==0){
                 m=0;
             }
-            else if(m==1){
-                m=0;
-            }
+            
             printf("%d ",m);
+            else if(m==0){
+                m++
+            }
         }
         m=1;
         printf("\n");
