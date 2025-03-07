@@ -12,7 +12,7 @@ int main(){
             }
             printf("%d ",m);
         }
-        m=1
+        m=1;
         printf("\n");
     }
 }
