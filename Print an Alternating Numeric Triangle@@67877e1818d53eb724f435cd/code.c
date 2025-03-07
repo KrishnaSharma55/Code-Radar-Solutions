@@ -11,9 +11,6 @@ int main(){
                 m=1;
             }
             printf("%d ",m);
-            if(m==0){
-                m++;
-            }
         }
         printf("\n");
     }
