@@ -5,9 +5,13 @@ int main(){
     for(int i=0; i<n; i++){
         for(int j=n-i; j<=n; j++){
             printf("%d ",m);
-            m=0;
+            if(n%2==0){
+                m=0;
+            }
+            else if(m==1){
+                m=0;
+            }
         }
-        m=1;
         printf("\n");
     }
 }
