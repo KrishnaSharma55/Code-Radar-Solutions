@@ -7,7 +7,9 @@ int main(){
             if(n%2==0){
                 m=0;
             }
-            
+            else{
+                m=1;
+            }
             printf("%d ",m);
             if(m==0){
                 m++;
