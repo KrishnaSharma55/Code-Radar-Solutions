@@ -15,7 +15,6 @@ int main(){
                 m++;
             }
         }
-        m=1;
         printf("\n");
     }
 }
