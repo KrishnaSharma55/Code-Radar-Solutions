@@ -8,6 +8,7 @@ int main(){
             if (j == n - i || j == n) {  
                 m = 1;
             } else {
+                m=0;
             }
             printf("%d", m);
         }
