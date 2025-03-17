@@ -1,20 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    int n,m=0;
-    scanf("%d",&n);
-    for(int i=0; i<n; i++){
-        for(int j=n-i; j<=n; j++){
-        if(j%2==0){
-            m=0;
-        }
-        else{
-            if(n%2==0){
-                m=0;
+    int n, m = 1;  
+    scanf("%d", &n);
+    
+    for (int i = 0; i < n; i++) {
+        for (int j = n - i; j <= n; j++) {
+            if (j == n - i || j == n) {  
+                m = 1;
+            } else {
             }
-            m=1;
-        }
-            printf("%d ",m);
+            printf("%d", m);
         }
         printf("\n");
     }
+    
+    return 0;
 }
