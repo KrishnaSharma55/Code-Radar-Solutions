@@ -8,6 +8,9 @@ int main(){
             m=0;
         }
         else{
+            if(n%2==0){
+                m=0;
+            }
             m=1;
         }
             printf("%d ",m);
