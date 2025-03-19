@@ -5,4 +5,5 @@ int main(){
     for(int i=0; i<n; i++){
         m=m+i;
     }
+    printf("%d",m);
 }
