@@ -25,4 +25,5 @@ int main(){
     }
     bubbleSort(arr ,n);
     printArray(arr ,n);
+    return 0;
 }
