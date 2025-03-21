@@ -9,7 +9,7 @@ void swap(int* xp, int* yp){
 }
 
 // An optimized version of Bubble Sort
-void bubbleSort(int arr[], int n){
+int bubbleSort(int arr[], int n){
     int i, j;
     bool swapped;
     for (i = 0; i < n - 1; i++) {
@@ -29,13 +29,13 @@ void bubbleSort(int arr[], int n){
 }
 
 // Function to print an array
-void printArray(int arr[], int size){
+int printArray(int arr[], int size){
     int i;
     for (i = 0; i < size; i++)
         printf("%d ", arr[i]);
 }
 
-int main(){
+void main(){
     int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
