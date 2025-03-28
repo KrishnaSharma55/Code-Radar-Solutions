@@ -16,14 +16,3 @@ int isPrime(int num){
         }
     }
 }
-int main(){
-    int t,i=0;
-    int num;
-    scanf("%d",&t);
-    while(i<t){
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
-        i++;
-    }
-    return 0;
-}
