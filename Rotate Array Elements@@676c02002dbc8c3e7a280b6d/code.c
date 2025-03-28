@@ -1,4 +1,7 @@
 #include <stdio.h>
+void rotate(int n,int m,int arr[],int arr[]){
+
+}
 int main() {
     int n,m;
     int arr[n];
