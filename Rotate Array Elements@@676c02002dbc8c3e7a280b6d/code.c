@@ -1,5 +1,5 @@
 #include <stdio.h>
-void rotate(int n,int m,int arr[],int arr[]){
+void rotate(int n,int m,int arr[],int arr2[]){
 
 }
 int main() {
