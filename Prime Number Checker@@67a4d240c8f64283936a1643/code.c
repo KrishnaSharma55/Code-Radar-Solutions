@@ -8,7 +8,7 @@ int isPrime(int num){
         return 1;
     }
     if(num%2==0){
-        return 1;
+        return 0;
     }
     for(int i =3; i<=(num/2); i=+2){
         if(num%i==0){
