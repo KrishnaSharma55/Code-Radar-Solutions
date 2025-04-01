@@ -26,6 +26,6 @@ int main() {
     }
     
     
-    printf("%d %d",min(arr,n,j),max(arr,n,k););
+    printf("%d %d",min(arr,n,j),max(arr,n,k));
     return 0;
 }
