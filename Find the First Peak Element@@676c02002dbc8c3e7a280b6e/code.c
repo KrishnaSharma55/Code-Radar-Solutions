@@ -1,7 +1,7 @@
 #include<stdio.h>
-void fpeak(int arr[],int n,int m){
+void fpeak(int arr[],int n){
     if
-    for(int i =1;i<n; i++){
+    for(int i=1; i<n; i++){
         if(arr[i-1]<arr[i]&& arr[i]>arr[i+1]){
             m=i;
         }
@@ -23,7 +23,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    printf("%d",fpeak(arr,n,m););
+    printf("%d",fpeak(arr,n););
     
 
     return 0;
