@@ -1,6 +1,6 @@
 #include<stdio.h>
 void min(int arr[],int n,int j){
-    int j=arr[0];
+    j=arr[0];
     for (int i = 0; i < n-1; i++) {
         if(arr[i]<arr[i-1]){
             int j=arr[i]
@@ -8,7 +8,7 @@ void min(int arr[],int n,int j){
     }
 }
 void max(int arr[],int n,int k){
-    int k=arr[0];
+    k=arr[0];
     for (int i = 0; i < n-1; i++) {
         if(arr[i]>arr[i-1]){
             int k=arr[i];
