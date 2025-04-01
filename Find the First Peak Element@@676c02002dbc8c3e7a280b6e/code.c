@@ -23,6 +23,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     fpeak(arr,n,m);
+    if(m==-1){
+        printf("-1");
+    }
     printf("%d",arr[m]);
     
 
