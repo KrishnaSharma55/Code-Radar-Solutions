@@ -2,7 +2,7 @@
 int min(int arr[],int n,int j){
     j=arr[0];
     for (int i = 0; i < n; i++) {
-        if(arr[i]<arr[i-1]){
+        if(arr[i]<j){
             j=arr[i];
         }
     }
@@ -11,7 +11,7 @@ int min(int arr[],int n,int j){
 int max(int arr[],int n,int k){
     k=arr[0];
     for (int i = 0; i < n; i++) {
-        if(arr[i]>arr[i-1]){
+        if(arr[i]>k){
             k=arr[i];
         }
     }
