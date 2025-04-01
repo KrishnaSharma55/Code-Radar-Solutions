@@ -1,7 +1,18 @@
 #include<stdio.h>
 int min(int arr[],int n){
+    int j=arr[0]
     for (int i = 0; i < n; i++) {
-
+        if(arr[i]>arr[i+1]){
+            return arr[i];
+        }
+    }
+}
+int min(int arr[],int n){
+    int j=arr[0]
+    for (int i = 0; i < n; i++) {
+        if(arr[i]>arr[i+1]){
+            return arr[i];
+        }
     }
 }
 int main() {
