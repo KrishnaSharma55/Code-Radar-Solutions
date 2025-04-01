@@ -1,5 +1,6 @@
 #include<stdio.h>
 int fpeak(int arr[],int n){
+    int m;
     if(arr[0]>arr[1]){
         return arr[0];
     }
@@ -9,11 +10,16 @@ int fpeak(int arr[],int n){
             return arr[i];
         }
         else{
-            return -1;
+            m= -1;
         }
     }
-    if(arr[n-1]>arr[n-2]){
+    if(m==-1){
+      if(arr[n-1]>arr[n-2]){
         return arr[n-1];
+       }
+       else{
+        return -1;
+       }
     }
 }
 
