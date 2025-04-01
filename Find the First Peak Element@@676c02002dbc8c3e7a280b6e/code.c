@@ -23,11 +23,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    fpeak(arr,n,m);
-    if(m==-1){
-        printf("-1");
-    }
-    printf("%d",arr[m]);
+    printf("%d",fpeak(arr,n,m););
     
 
     return 0;
