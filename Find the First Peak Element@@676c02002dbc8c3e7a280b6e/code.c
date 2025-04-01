@@ -23,7 +23,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     fpeak(arr,n,m);
-    printf("%d",m);
+    printf("%d",arr[m]);
     
 
     return 0;
