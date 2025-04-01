@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fpeak(int arr[],int n){
+int fpeak(int arr[],int n){
     if(arr[0]>arr[1]){
         return arr[0];
     }
